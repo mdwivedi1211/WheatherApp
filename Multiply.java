@@ -5,5 +5,6 @@ class Multply
         int a=10;
         int b=20;
         System.out.println("Multiplication of a and b is"+(a*b));
+        System.out.println("You want more");
     }
 }
