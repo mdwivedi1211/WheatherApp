@@ -1,4 +1,5 @@
 function getWeather() {
+  const name = "Weatherofbhopal";
   const city = document.getElementById("city").value;
   const apiKey = "your_api_key"; // Replace with your API key
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
